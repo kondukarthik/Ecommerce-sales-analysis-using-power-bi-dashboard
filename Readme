@@ -1,57 +1,40 @@
-### **Project Title**
-**Ecommerce Sales Dashboard**
+# Ecommerce Sales Dashboard
 
-## **Project Overview**
+## Project Overview
+
 This project involves creating an interactive sales dashboard to analyze ecommerce data. The dashboard provides insights into key performance indicators (KPIs) like total sales, profit, and quantity sold, and helps visualize trends across different categories, sub-categories, and regions. The primary tool used is **Power BI**.
 
-## **Dashboard Screenshots**
-Here are a few screenshots of the completed dashboard to showcase its design and features.
+## Dashboard Screenshots
 
-![Main Dashboard View](assets/Screenshot%202025-08-17%20180946.png)
-_A view of the main dashboard with key metrics and charts._
+Here are a few screenshots of the completed dashboard to showcase its design and features. These images are included directly in the repository for easy viewing.
+![Alt text](/relative/path/to/img.jpg?raw=true "Optional Title")
+*A view of the main dashboard with key metrics and charts.*
 
-![Detailed Dashboard View](assets/Screenshot%202025-08-17%20181026.png)
-_A closer look at some of the interactive visualizations._
+*A closer look at some of the interactive visualizations.*
 
-## **Files in this Repository**
-* **Ecommerce sales dashboard project.pbix:** This is the main Power BI file containing the data model, transformations, and dashboard visualizations.
-* **Orders.csv:** A CSV file containing customer and order details, including `Order ID`, `Order Date`, `Customer Name`, `State`, and `City`.
-* **Details.csv:** A CSV file with details about each order item, including `Order ID`, `Amount`, `Profit`, `Quantity`, `Category`, `Sub-Category`, and `Payment Mode`.
-* **dark-gradient.jpg:** An image used for the dashboard's background to enhance its visual appeal.
-* **assets/Screenshot 2025-08-17 180946.png:** A screenshot of the dashboard's main view.
-* **assets/Screenshot 2025-08-17 181026.png:** A screenshot of a more detailed view of the dashboard.
+## Files in this Repository
 
-***
+  * `Ecommerce sales dashboard project.pbix`: The main Power BI file containing the data model, transformations, and dashboard visualizations.
+  * `Orders.csv`: A CSV file containing customer and order details, including `Order ID`, `Order Date`, `Customer Name`, `State`, and `City`.
+  * `Details.csv`: A CSV file with details about each order item, including `Order ID`, `Amount`, `Profit`, `Quantity`, `Category`, `Sub-Category`, and `Payment Mode`.
+  * `dark-gradient.jpg`: An image used for the dashboard's background to enhance its visual appeal.
 
-## **Key Features of the Dashboard**
-* **Sales and Profit Analysis:** Visualizations to track total sales and profit over time.
-* **Product Performance:** Breakdowns of sales by product `Category` and `Sub-Category`.
-* **Geographical Insights:** Maps and charts to show sales distribution by `State` and `City`.
-* **Payment Method Trends:** Analysis of sales based on `Payment Mode`.
-* **Interactive Filters:** Slicers and filters to allow users to drill down into specific data points.
+## Key Features of the Dashboard
 
-***
+  * **Sales and Profit Analysis**: Visualizations to track total sales and profit over time.
+  * **Product Performance**: Breakdowns of sales by product `Category` and `Sub-Category`.
+  * **Geographical Insights**: charts to show sales distribution by `State` and.
+  * **Payment Method Trends**: Analysis of sales based on `Payment Mode`.
+  * **Interactive Filters**: Slicers and filters to allow users to drill down into specific data points.
 
-## **How to Use**
-1.  **Clone the Repository:** Clone this repository to your local machine.
-2.  **Open in Power BI Desktop:** Open the `Ecommerce sales dashboard project.pbix` file using **Power BI Desktop**.
-3.  **Refresh Data (if needed):** If the data source paths are different on your machine, you may need to go to "Transform data" to update the paths for `Orders.csv` and `Details.csv`.
-4.  **Explore:** Interact with the dashboard to explore the data and uncover insights.
+## How to Use
 
-***
+1.  **Clone the Repository**: Clone this repository to your local machine using `git clone [https://github.com/kondukarthik/Ecommerce-sales-analysis-using-power-bi-dashboard/tree/main]`.
+2.  **Open in Power BI Desktop**: Open the `Ecommerce sales dashboard project.pbix` file using **Power BI Desktop**.
+3.  **Refresh Data (if needed)**: If the data source paths are different on your machine, you may need to update the file paths for `Orders.csv` and `Details.csv` in the Power Query Editor.
+4.  **Explore**: Interact with the dashboard to explore the data and uncover valuable business insights.
 
-## **Technologies Used**
-* **Power BI Desktop:** For data modeling, transformation, and visualization.
-* **CSV:** For the raw data files (`Orders.csv`, `Details.csv`).
-* **Image Files:** For the dashboard background and screenshots.
+## Technologies Used
 
-***
-
-## **Acknowledgments**
-* Mention any specific sources for the dataset or inspiration for the dashboard design here.
-
-***
-
-## **Contact**
-* **Your Name:** [Your GitHub Profile Link]
-* **Email:** [Your Email Address]
+  * Power BI Desktop
+  * CSV (for data storage)
